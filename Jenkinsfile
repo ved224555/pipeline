@@ -9,7 +9,7 @@ pipeline{
 		
 		stage('testing'){
 			steps{
-				sh 'java -version'
+				echo 'testing in process'
 			}
 		}
 		
