@@ -15,7 +15,8 @@ pipeline{
 		
 		stage('deployment'){
 			steps{
-				echo 'deployment in process'			
+				sh 'javac main.java'
+				sh 'java main'
 			}
 		}
 	}
