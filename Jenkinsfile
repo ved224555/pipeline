@@ -16,6 +16,7 @@ pipeline{
 		stage('deployment'){
 			steps{
 				sh 'javac pipeline/src/main.java'
+				sh 'java main'
 			}
 		}
 	}
