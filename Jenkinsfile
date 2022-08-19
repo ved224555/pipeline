@@ -15,8 +15,8 @@ pipeline{
 		
 		stage('deployment'){
 			steps{
-				bat '''javac "src/main.java"
-					java "src/main.java"'''
+				bat '''javac src/main.java
+				java src/main.java'''
 			}
 		}
 	}
